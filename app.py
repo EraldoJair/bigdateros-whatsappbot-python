@@ -41,5 +41,6 @@ def recibir_mensajes():
     except Exception as e:
         return 'no enviado perro ' + str(e)
 
-if __name__ == '__main__':
-    app.run()
+if __name__ == "__main__":
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=5000)
