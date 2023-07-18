@@ -19,8 +19,8 @@ def obtener_Mensaje_whatsapp(message):
         text = message['interactive']['button_reply']['title']
     else:
         text = 'mensaje no procesado'
-    
-    
+
+
     return text
 
 def enviar_Mensaje_whatsapp(data):
@@ -30,21 +30,21 @@ def enviar_Mensaje_whatsapp(data):
         headers = {'Content-Type': 'application/json',
                    'Authorization': 'Bearer ' + whatsapp_token}
         print("se envia ", data)
-        response = requests.post(whatsapp_url, 
-                                 headers=headers, 
+        response = requests.post(whatsapp_url,
+                                 headers=headers,
                                  data=data)
-        
+
         if response.status_code == 200:
             return 'mensaje enviado', 200
         else:
             return 'error al enviar mensaje', response.status_code
     except Exception as e:
         return e,403
-    
+
 def text_Message(number,text):
     data = json.dumps(
             {
-                "messaging_product": "whatsapp",    
+                "messaging_product": "whatsapp",
                 "recipient_type": "individual",
                 "to": number,
                 "type": "text",
@@ -215,6 +215,9 @@ def administrar_chatbot(text,number, messageId, name):
     text = text.lower() #mensaje que envio el usuario
     list = []
     print("mensaje del usuario: ",text)
+
+    # data = text_Message(number,"hola ontario")
+    # enviar_Mensaje_whatsapp(data)
 
     markRead = markRead_Message(messageId)
     list.append(markRead)
