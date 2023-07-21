@@ -1,7 +1,7 @@
 token = 'bigdateros'
 
 # whatsapp_token = 'EAAXEyGF6eFUBAJg4CnfRPUFSNpIZACVJWUE3G6ZClDdvJfnJ2Fc7kbcXkuhENVXBA3ZB4XXWuZBl0f9dkUZAXsq7GqZA0xvv39GO8jxYFkJJjyFRZBotCxJp5L0iR4cqDncgjVZCIsuzIAZBpmU8FwdU3nP0eC2rHP9NWaTs8nGQR3wod2H5iLzfz'
-whatsapp_token = 'EAAXEyGF6eFUBAJP9uuhrM2yVrcI6eeDbMusOcOQjbVA7Ckz1QODLkWQqikNbia8mRZAlvkAJrCxqkTfpjVFdThGT55WwhurUilISzDspzZB7yfCsKPmCD7P763rSOv6wAqytquFsgfpDdxzQzRRNx0BIi7cgLeLJPAGldYwghSO10D6EriRWrZAYFdjCgYWqSmsh4uoXgZDZD' # numero claro whatsapp api caducable
+whatsapp_token = 'EAAXEyGF6eFUBAFGwebxdjWJvLhVB1bZAOmxb0iuAODfEZAeS9jIdZAMY4gHXGyPFcILwky3aNtmQYiZBmyOvU56eVKOK62HZAAfGUkov7nb96Muh4zDLakGu9P3x0NwUmmZAGZA2SuTnsUGe0X0ims0YdwkERfZBMcgrcMoVcCrb3McRQmRHVQ5glaJPmw6ckZA1bCRPdOrlHkQZDZD' # numero claro whatsapp api caducable
 
 whatsapp_url = 'https://graph.facebook.com/v17.0/103370109462503/messages' # business test
 # whatsapp_url = 'https://graph.facebook.com/v17.0/113100418518835/messages' # numero claro whatsapp test
