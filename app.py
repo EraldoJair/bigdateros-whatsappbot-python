@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/bienvenido', methods=['GET'])
 def  bienvenido():
-    return 'Hola mundo bigdateros, desde Flask'
+    return 'Hola mundo, desde Flask'
 
 @app.route('/webhook', methods=['GET'])
 def verificar_token():
@@ -42,5 +42,7 @@ def recibir_mensajes():
         return 'no enviado perro ' + str(e)
 
 if __name__ == "__main__":
-    from waitress import serve
-    serve(app, host="0.0.0.0", port=5000)
+    # from waitress import serve
+    # serve(app, host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5000)
+    # app.run()
