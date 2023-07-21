@@ -1,10 +1,10 @@
 token = 'bigdateros'
 
-# whatsapp_token = 'EAAXEyGF6eFUBAIXPlqWytlkgZBBDo6GG0ybsCxNHPB1oyTCVrtEf6NzycA3ZCDezt3SY4BfyCha87fHI2YkaRsxclKJOvrbkS3yJN4YwyUHiReeZCZCRCZCIWA6lz6ZBghvWKTlBxgKNp6ZAiIDOYcRp7FJMYU9xwuwEZCkw9ZA9ZCb6wMpt459KhugJ9H6ddyBMryKSDQjJF4rp7irG03JmhUSusidZCfp9zAZD'
-whatsapp_token = 'EAAXEyGF6eFUBAIKDy9OUV4SUQdhIb0f3dvZBZBYpbb7UOasGb6ZCVB0ClvJhlwoDiO2a94hxgxoZAK0f7T9LnHOjxgJYsFkhgFTprhHznuUM6QniWMZBuROWHj1IOcrQAsAfVkqxTqdFT9srUeRg7XJZBtwXU1BYR470tmZBoLG8VVmIf8VrjmJREpK9syeLqyqbPFGLmIG5gZDZD' # numero claro whatsapp api caducable
+# whatsapp_token = ''
+whatsapp_token = '' # numero claro whatsapp api caducable
 
-whatsapp_url = 'https://graph.facebook.com/v17.0/103370109462503/messages' # business test
-# whatsapp_url = 'https://graph.facebook.com/v17.0/113100418518835/messages' # numero claro whatsapp test
+whatsapp_url = '' # business test
+# whatsapp_url = '' # numero claro whatsapp test
 
 stickers = {
     "poyo_feliz": 984778742532668,
